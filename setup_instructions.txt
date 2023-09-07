@@ -1,0 +1,6 @@
+# Replace TORCH_VERSION and CUDA_VERSION with your torch / cuda versions
+pip install kaolin==0.14.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.0.0_cu118.html
+conda install -n koalin_env ipykernel --update-deps --force-reinstall
+pip install -U matplotlib
+pip install ipympl
+conda install -c conda-forge jupyterlab

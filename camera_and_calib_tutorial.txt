@@ -1,0 +1,500 @@
+   34  cd ~/Downloads/
+   35  ls
+   36  sh Anaconda3-2023.03-Linux-x86_64.sh 
+   37  conda config --set auto_activate_base false
+   38  conda info --envs
+   39  conda config --set auto_activate_base false
+   40  conda deactivate
+   41  conda create --name new_base
+   42  conda activate new_base
+   43  conda deactivate
+   44  cd ~/github/UTD-Autopilot/
+   45  ls
+   46  virtualenv venv
+   47  source ./venv/bin/activate
+   48  pip install -e .
+   49  pip install -r requirements.txt
+   50  python --version
+   51  pip install carla
+   52  pip install --upgrade pip
+   53  pip install carla
+   54  pip install carla==0.9.13
+   55  deactivate
+   56  conda create -n docker_setup python=3.10
+   57  conda activate docker_setup
+   58  pip install -e .
+   59  cd /usr/local/
+   60  ls
+   61  python3.10
+   62  python --version
+   63  cd /usr/local/
+   64  ls
+   65  cd src/
+   66  ls
+   67  cd ../..
+   68  nvidia-smi
+   69  python
+   70  cd /usr/lib
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd ~/github/UTD-Autopilot/
+   75  ls
+   76  cd setup.py 
+   77  vim setup.py 
+   78  python3.10
+   79  cd /usr/bin/
+   80  ls
+   81  cd python3
+   82  python3.10
+   83  cd ~/github/UTD-Autopilot/
+   84  ls
+   85  rm -rf venv/
+   86  virtualenv venv
+   87  source ./venv/bin/activate
+   88  ls
+   89  rm -rf venv/
+   90  python3.10 -m pip install virtualenv
+   91  which python
+   92  python
+   93  deactivate
+   94  vi ~/.bash_profile  
+   95  vim ~/.bash_profile  
+   96  vim ~/.bash_profile  
+   97  source ~/.bash_profile
+   98  python --version
+   99  source ~/.bash_profile
+  100  vim ~/.bash_profile  
+  101  source ~/.bash_profile
+  102  python --version
+  103  python --version
+  104  ls
+  105  virtualenv venv
+  106  source ./venv/bin/activate
+  107  python --version
+  108  pip install -e .
+  109  pip install -r requirements.txt
+  110  pip install carla
+  111  pip install --upgrade pip
+  112  pip install carla==0.9.13]
+  113  pip install carla==0.9.13
+  114  ln -sf /usr/bin/python3.10 /usr/bin/python
+  115  ls
+  116  cd docker/
+  117  ls
+  118  cd carla/
+  119  docker build .
+  120   cd ../..
+  121  pip install carla
+  122  ls
+  123  pip install -r requirements.txt 
+  124  pip3 install requirements.txt 
+  125  pip3 install -r requirements.txt 
+  126  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  127  pip install -r requirements.txt 
+  128  conda info --envs
+  129  conda activate new_base
+  130  cd github/UTD-Autopilot/
+  131  ls
+  132  pip install -e .
+  133  conda deactivate
+  134  conda info --envs
+  135  virtualenv venv
+  136  source ./venv/bin/activate
+  137  pip install -e .
+  138  pip install -r requirements.txt
+  139  pip install carka
+  140  pip install carla
+  141  deactivate
+  142  conda info --envs
+  143  conda activate docker_setup
+  144  python --version
+  145  pip install carla
+  146  python3.10
+  147  deactivate
+  148  conda deactivate
+  149  python3.10 -m venv .venv
+  150  python3.10
+  151  which python
+  152  cd /usr/bin/
+  153  ls
+  154  ls
+  155  cd ..
+  156  ls
+  157  cd bin/
+  158  ls
+  159  cd ~
+  160  ls
+  161  cd /usr/bin/
+  162  ls
+  163  cd python
+  164  l
+  165  cd ..
+  166  cd /usr/lib
+  167  ls
+  168  docker run --gpus 0 -d --rm -p 2021-2023:2021-2023/tcp carla /bin/bash ./CarlaUE4.sh -RenderOffScreen -vulkan -nosound -carla-rpc-port=2021
+  169  docker ps
+  170  python --version
+  171  ls
+  172  rm -rf venv/
+  173  python3.8 -m venv .venv
+  174  source .venv/bin/activate
+  175  ls
+  176  python --version
+  177  pip install -e .
+  178  pip install --upgrade pip
+  179  pip install -r requirements.txt 
+  180  docker run --gpus 0 -d --rm -p 2021-2023:2021-2023/tcp carla /bin/bash ./CarlaUE4.sh -RenderOffScreen -vulkan -nosound -carla-rpc-port=2021
+  181  cd docker/
+  182  ls
+  183  cd carla/
+  184  docker build .
+  185  docker run --gpus 0 -d --rm -p 2021-2023:2021-2023/tcp carla /bin/bash ./CarlaUE4.sh -RenderOffScreen -vulkan -nosound -carla-rpc-port=2021
+  186  docker run --gpus 0 -d --rm -p 2021-2023:2021-2023/tcp carla /bin/bash ./CarlaUE4.sh -RenderOffScreen -vulkan -nosound -carla-rpc-port=2021
+  187  docker image
+  188  docker ps
+  189  docker build -t carla ./docker/carla
+  190  cd ..
+  191  cd ..
+  192  docker build -t carla ./docker/carla
+  193  docker ps
+  194  docker image
+  195  docker run --gpus 0 -d --rm -p 2000-2002:2000-2002/tcp carla /bin/bash ./CarlaUE4.sh -RenderOffScreen -vulkan -nosound -carla-rpc-port=2000
+  196  docker ps
+  197  docker image
+  198  docker ps
+  199  docker image ls
+  200  docker stop 8dee2cabc37c
+  201  docker ps
+  202  docker image rm 8dee2cabc37c
+  203  docker ps
+  204  docker ps
+  205  docker image ls
+  206  docker 
+  207  docker ps
+  208  docker image rm 6fda542451a8
+  209  docker image ls
+  210  docker ps
+  211  conda info --envs
+  212  conda create --name carla_sac_ppo
+  213  conda create --name carla_sac_ppo python=3.8
+  214  conda info --envs
+  215  conda create env --name carla_sac_ppo python=3.8
+  216  conda create --name carla_sac_ppo_train python=3.8
+  217  conda info --envs
+  218  conda remove --name carla_sac_ppo
+  219  conda remove --name carla_sac_ppo --all
+  220  conda info --envs
+  221  conda activate carla_sac_ppo_train
+  222  cd /usr/bin/
+  223  ll
+  224  cd ~/github/carla_sac/
+  225  pip install gym
+  226  pip install pygame
+  227  pip install opencv-python
+  228  pip install matplotlib
+  229  pip install gym[box2d]
+  230  conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+  231  ls
+  232  cd ..
+  233  cd carla_sac/
+  234  ls
+  235  git branch
+  236  git fetch -a
+  237  git checkout feature/imitation_learning
+  238  git pull
+  239  ls
+  240  conda info --envs
+  241  git branch
+  242  ls
+  243  nvidia-smi
+  244  ls
+  245  cd ..
+  246  ls
+  247  cd carla_sac/
+  248  mkdir mile_captured_data
+  249  ls
+  250  cd mile_captured_data/
+  251  ls
+  252  scp -r kxa200005@pdml4.utdallas.edu:/home/kxa200005/github/mile/outputs/2023-06-11 .
+  253  ls
+  254  cd 2023-06-11/
+  255  ls
+  256  cd 22-49-45/
+  257  ls
+  258  cd ..
+  259  cd ..
+  260  ls
+  261  rm -rf 2023-06-11/
+  262  scp -r kxa200005@pdml4.utdallas.edu:/home/kxa200005/github/mile/outputs/2023-06-11 .
+  263  ls -lh
+  264  ls
+  265  cd 2023-06-11/
+  266  cd ..
+  267  du -sh 2023-06-11
+  268  conda info --envs
+  269  conda activate carla_sac_ppo_train
+  270  python --version
+  271  git branch
+  272  git fetch -a
+  273  git branch -a
+  274  conda info --envs
+  275  conda activate carla_sac_ppo_train
+  276  python
+  277  conda list
+  278  conda info --envs
+  279  conda deactivate
+  280  conda activate carla_sac_ppo_train
+  281  cd ..
+  282  ls
+  283  cd UTD-Autopilot/
+  284  ls
+  285  source .venv/bin/activate
+  286  python
+  287  deactivate
+  288  conda deactivate
+  289  cd ..
+  290  ls
+  291  cd carla_sac/
+  292  conda info --envs
+  293  conda activate carla_sac_ppo_train
+  294  conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+  295  conda deactivate
+  296  conda env remove --name carla_sac_ppo_train
+  297  source activate carla_imitation
+  298  ps -ef | grep python
+  299  kill -9 1366401
+  300  kill -9 1366406
+  301  source activate carla_imitation
+  302   /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 46693 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  303  conda ativate carla_imitation
+  304  conda activate carla_imitation
+  305  pip install pandas
+  306   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 59047 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  307  pip install tqdm
+  308   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 50909 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  309  docker run --gpus 0 -d --rm -p 2021-2023:2021-2023/tcp carla /bin/bash ./CarlaUE4.sh -RenderOffScreen -vulkan -nosound -carla-rpc-port=2021
+  310  docker ps
+  311   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 43663 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  312  cd gym_carla_environment/
+  313  ls
+  314  pip install -e .
+  315   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 58269 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  316  cd ..
+  317  ls
+  318  cd UTD-Autopilot/
+  319  ls
+  320  pip install -e .
+  321  pip install -r requirements.txt
+  322   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 53985 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  323  scp -r kxa200005@pdml4.utdallas.edu:/home/kxa200005/github/carla_sac/torch_base/pretrained_model torch_base/
+  324  ls
+  325  cd torch_base/pretrained_model/
+  326  ls
+  327  git status
+  328   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 36443 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  329  conda create env --name carla_imitation
+  330  conda create --name carla_imitation python=3.8
+  331  conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+  332  conda info --envs
+  333  conda activate carla_imitation
+  334  pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+  335  pip install gym
+  336  pip install carla==0.9.13
+  337  pip install pygame
+  338  pip install opencv-python
+  339  pip install matplotlib
+  340  pip install gym[box2d]
+  341  pip install swig
+  342  pip install gymnasium[box2d]
+  343  pip install visdom
+  344  pip install carla==0.9.13
+  345  pip install scikit-image
+  346  pip install tensorboard
+  347  pip install matplotlib
+  348  pip install transforms3d
+  349  git branch
+  350  source activate carla_imitation
+  351   /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 40291 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  352   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 47331 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  353   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56905 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  354   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 37423 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  355   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 44021 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  356   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 48923 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_103 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  357   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 53291 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 103 --action-repeat 2 --running_score 15000 --context train_104 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  358  git status
+  359  git add .vscode/
+  360  git add carla_ppo_train.py 
+  361  git commit -m 'dev'
+  362  git banch
+  363  git branch
+  364  git push -u origin feature/imitation_learning
+  365   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 51985 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 104 --action-repeat 2 --running_score 15000 --context train_104 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  366   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 50457 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 106 --action-repeat 2 --running_score 15000 --context train_106 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  367   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 36021 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 107 --action-repeat 2 --running_score 15000 --context train_107 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  368   cd /home/kxa200005/github/carla_sac ; /usr/bin/env /home/kxa200005/anaconda3/envs/carla_imitation/bin/python /home/kxa200005/.vscode-server/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 43873 -- /home/kxa200005/github/carla_sac/carla_ppo_train.py --device_id 0 --img-stack 3 --log_seed 105 --action-repeat 2 --running_score 15000 --context train_105 --load_context train_100 --num_steps_per_episode 150 --imitation_context imitation_1 --load_imitation --imitation_data_dir mile_captured_data/2023-06-11/22-49-45/save_data/ 
+  369  git status
+  370  git add .vscode/
+  371  git add carla_ppo_train.py 
+  372  git commit -m 'starting full training after trying out hyperparam tuning on small steps'
+  373  git branch
+  374  git push -u origin feature/imitation_learning
+  375  source activate carla_imitation
+  376  conda info --envs
+  377  conda activate carla_imitation
+  378  git status
+  379  git diff
+  380  git status
+  381  git add -u
+  382  git status
+  383  git add .vscode/
+  384  git add carla_ppo_train.py 
+  385  git add requirements.txt 
+  386  git commit -m 'train code bugfix'
+  387  git config --global user.email "a.karthikragunath@gmail.com"
+  388  git config --global user.name "Karthik Ragunath Ananda Kumar"
+  389  git branch
+  390  git push -u origin feature/imitation_learning
+  391  git commit -m 'train code bugfix'
+  392  git push -u origin feature/imitation_learning
+  393  screen -ls
+  394  screen -S exp_1
+  395  git status
+  396  screen -r
+  397  source activate carla_imitation
+  398  screen -r
+  399  source activate carla_imitation
+  400  git status
+  401  mkdir koalin_tutorial
+  402  cd koalin_tutorial/
+  403  git init
+  404  git add .
+  405  git commit -m 'initial commit'
+  406  git log
+  407  touch __init__.py
+  408  ls
+  409  git add __init__.py 
+  410  git commit -m 'initial commit'
+  411  git remote add origin https://github.com/Karthik-Ragunath/koalin_tutorial.git
+  412  git push -u origin master
+  413  cd /usr/local/
+  414  ll
+  415  ls ll
+  416  ll
+  417  ls
+  418  ls -ll
+  419  ll
+  420  ll
+  421  ls -ll
+  422  sudo
+  423  sudo ls
+  424  conda create --name koalin
+  425  conda create --name koalin python=3.10
+  426  conda remove env --name koalin
+  427  conda env remove --name koalin
+  428  conda create --name koaling_env
+  429  conda create --name koaling_env python=3.10
+  430  conda env remove --name koaling_env
+  431  conda create --name koalin_env
+  432  conda create --name koalin_env python=3.10
+  433  conda activate koalin_env
+  434  ls
+  435  pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+  436  ls
+  437  python
+  438  whereis cudnn.h
+  439  pip install kaolin==0.12.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.0.0_cu118.html
+  440  pip install kaolin==0.14.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.0.0_cu118.html
+  441  cd ~/github/koalin_tutorial/
+  442  git clone https://github.com/NVlabs/nvdiffrast.git
+  443  ls
+  444  cd nvdiffrast/
+  445  ls
+  446  ls
+  447  cd ..
+  448  pip install -e nvdiffrast
+  449  git clone https://github.com/NVIDIAGameWorks/kaolin.git
+  450  ls
+  451  cd kaolin/
+  452  ls
+  453  cd examples/
+  454  ls
+  455  cd tutorial/
+  456  ls
+  457  pip install matplotlib
+  458  conda install -n koalin_env ipykernel --update-deps --force-reinstall
+  459  conda install libgcc
+  460  cd ~/anaconda3/lib
+  461  ls
+  462  mv -vf libstdc++.so.6 libstdc++.so.6.old
+  463  ln -s /usr/lib/libstdc++.so.6 ./libstdc++.so.6
+  464  ll
+  465  ls -ll
+  466  cd /home/kxa200005/anaconda3/envs/koalin_env/lib/python3.10/site-packages/zmq/backend/cython/
+  467  find . -type f -name 'libstdc++.so.6' | sed -r 's|/[^/]+$||' |sort |uniq
+  468  find . -type f -name 'libstdc++.so.6'
+  469  cd /home/kxa200005/anaconda3/envs/koalin_env/lib/python3.10/site-packages/zmq/backend/cython/../../../../.././
+  470  ls
+  471  pwd
+  472  pwd
+  473  strings libstdc++.so.6 | grep GLIBCXX_
+  474  conda install libgcc
+  475  echo $PATH
+  476  cd ~/anaconda3/lib
+  477  ls -l
+  478  ls -ll libstd*
+  479  strings libstdc++.so.6.29 | grep GLIBCXX_
+  480  strings libstdc++.so.6.0.29 | grep GLIBCXX_
+  481  ls
+  482  ls -ll stdc++*
+  483  ls -ll libstdc++*
+  484  unlink libstdc++.so.6
+  485  ls -ll libstdc++*
+  486  conda install libgcc
+  487  ls -ll
+  488  ls -ll libstdc++*
+  489  cd ~/anaconda3/envs/koalin_env/
+  490  find . -type f -name 'libstdc++.so.6' | sed -r 's|/[^/]+$||' |sort |uniq
+  491  find . -type f -name 'libstdc++.so.6*' | sed -r 's|/[^/]+$||' |sort |uniq
+  492  cd lib/
+  493  ls
+  494  strings libstdc++.so.6.0.29 | grep GLIBCXX_
+  495  conda install -c conda-forge libgcc
+  496  ls
+  497  cd ..
+  498  find . -type f -name 'libstdc++.so.6*' | sed -r 's|/[^/]+$||' |sort |uniq
+  499  cd lib/
+  500  strings libstdc++.so.6.0.29 | grep GLIBCXX_
+  501  ls
+  502  pwd
+  503  strings libstdc++.so.6.0 | grep GLIBCXX_
+  504  strings libstdc++.so.6 | grep GLIBCXX_
+  505  strings libstdc++.so.6 | grep GLIBCXX_
+  506  pwd
+  507  cd /home/kxa200005/anaconda3/envs/koalin_env/lib/python3.10/site-packages/zmq/backend/cython/../../../../.././
+  508  pwd
+  509  cd /home/kxa200005/anaconda3/envs/koalin_env/lib/python3.10/site-packages/zmq/backend/cython/../../../../../
+  510  pwd
+  511  cd /home/kxa200005/anaconda3/envs/koalin_env/lib/python3.10/site-packages/zmq/backend/cython/../../../../
+  512  pwd
+  513  cd /home/kxa200005/anaconda3/envs/koalin_env/lib/python3.10/site-packages/zmq/backend/cython/../../../../.././
+  514  pwd
+  515  ls -ll
+  516  ls -ll libstdc++*
+  517  mv -vf libstdc++.so.6 libstdc++.so.6.old
+  518  ls -ll
+  519  ls -ll libstdc++*
+  520  strings libstdc++.so.6.0.29 | grep GLIBCXX_
+  521  ln -s /usr/lib/libstdc++.so.6 ./libstdc++.so.6
+  522  ls -ll
+  523  ls -ll libstdc++*
+  524  pip install -U matplotlib
+  525  jupyter lab
+  526  pip install ipympl
+  527  pip install ipympl
+  528  conda install -c conda-forge jupyterlab
+  529  jupyter lab
+  530  cd ~/github/koalin_tutorial/
+  531  jupyter lab
+  532  history
+  533  history > camera_and_calib_tutorial.txt
